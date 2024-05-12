@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/instance: issuegen
   name: issuegen-svc
 spec:
-  type: NodePort
+  type: NodePort  
   ports:
     - port: 3100
       targetPort: 8088
